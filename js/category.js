@@ -40,7 +40,7 @@ function getCategoryCard({ id, lastName, avatar , fristName, isMarried , email, 
           <div>
             <button editId="${id}" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#category-modal">Edit</button>
             <button deleteId="${id}" class="btn btn-danger">Delete</button>
-            <a href="product.html?categoryId=${id}" class="btn btn-primary">See products ${id}</a>
+            <a href="product.html?categoryId=${id}" class="btn btn-primary">Students</a>
           </div>
         </div>
       </div>
